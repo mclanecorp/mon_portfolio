@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_contac.css" />
+    <title>Me contacter</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav">
+        <div class="logo">
+          <a id="liens" class="logo_title" href="index.html">MclaneCorp</a>
+        </div>
+        <div class="nav_liens">
+          <a id="liens1" class="liens1" href="">Mon parcours</a>
+          <a id="liens2" class="liens2" href="travail.html">Mon travail</a>
+          <a id="liens3" class="liens3" href="contact.html">Me contacter</a>
+        </div>
+        <img src="./image/menu.png" alt="" class="burger" />
+      </nav>
+    </header>
+    <main>
+      <div class="title_contac">
+        <img
+          src="./image/lettre-de-motivation.png"
+          alt=""
+          class="img_contact"
+        />
+        <p class="title_contact">JE VOUS ECOUTES</p>
+      </div>
+      <form
+        action="mailto:mclanecorp@proton.me?subject=Fomulaire Mon javascript"
+        name="envoi"
+        method="POST"
+        enctype="text/plain"
+      >
+        <div class="boxidentite">
+          <div class="prenom">
+            <label for="prenom">prénom</label>
+            <input type="text" name="prenom" />
+          </div>
+          <div class="prenom">
+            <label for="nom">nom</label>
+            <input type="text" name="nom" />
+          </div>
+        </div>
+        <div class="box_mail">
+          <div class="prenom">
+            <label for="email">E-mail</label>
+            <input type="text" name="mail" id="email" />
+            <p class="error" id="error">
+              l'email nest pas renseigner ou mal écris
+            </p>
+          </div>
+        </div>
+        <div class="box_message">
+          <div class="prenom">
+            <label for="messages">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+
+        <div class="box_btn_envoyer">
+          <input
+            type="submit"
+            value="envoyer"
+            name="envoyer"
+            class="btn_envoyer"
+            onclick="claim()"
+          />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="mention">
+        <p>
+          © 2023 mclanecorp. Tous droits réservés.
+          <a href="">Mentions légales</a>
+        </p>
+      </div>
+      <div class="link"></div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
