@@ -300,6 +300,9 @@ main {
 footer {
   background-color: #fff7d6;
   padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .mention {
   margin: 20px;
@@ -307,6 +310,10 @@ footer {
 .mention a {
   color: #164e63;
   text-decoration: underline;
+}
+.img_link {
+  width: 20px;
+  margin-right: 20px;
 }
 .animate {
   transform: translateY(-350px);
