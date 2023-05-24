@@ -275,6 +275,21 @@ footer {
   border: 1px solid black;
   width: 100%;
 }
+.menu_burger {
+  background-color: #164e63;
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+  align-items: center;
+  left: 160px;
+  top: 90px;
+  visibility: hidden;
+  position: fixed;
+  padding-bottom: 20px;
+}
 @media screen and (max-width: 600px) {
   border {
     margin: 0;
