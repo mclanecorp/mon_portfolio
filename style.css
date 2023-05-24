@@ -294,6 +294,21 @@ main {
   font-size: 20px;
   cursor: pointer;
 }
+.download {
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.download:hover {
+  transform: scale(1.1);
+}
+.download:visited {
+  text-decoration: none;
+  color: inherit;
+}
 .responsive {
   display: none;
 }

@@ -263,8 +263,16 @@ footer {
   width: 350px;
   border: 1px solid black;
 }
+.img_site:visited {
+  text-decoration: none;
+}
 .img_site:hover {
   transform: scale(1.1);
+}
+.cv {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  border: 1px solid black;
 }
 @media screen and (max-width: 600px) {
   border {
